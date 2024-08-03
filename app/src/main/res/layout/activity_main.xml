@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/sena"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/logo_sena"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/edt_email"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30sp"
+        android:ems="10"
+        android:hint="@string/edt_pass"
+        android:inputType="text"
+        android:textAlignment="center"
+        tools:ignore="Autofill,TextContrastCheck,TouchTargetSizeCheck" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/sena"
+        android:text="@string/login"
+        android:textColorLink="@color/sena"
+        tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/google"
+        android:text="@string/btn_gmail"
+        android:textColorLink="@color/google"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/cuenta"
+        android:text="@string/btn_cuenta"
+        android:textColorLink="@color/cuenta"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30sp"
+        android:ems="10"
+        android:hint="@string/edt_re"
+        android:textAlignment="center"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>

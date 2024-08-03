@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recu_contraseña"
+        android:textAlignment="center"
+        android:textColor="@color/sena"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_marginBottom="30sp"
+        app:srcCompat="@drawable/logo_sena" />
+
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/edt_ce"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/sena"
+        android:text="@string/btn_recu"
+        android:textColorLink="@color/sena" />
+</LinearLayout>
+

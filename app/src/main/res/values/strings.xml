@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyApp1</string>
+    <string name="btn1">BOTON1</string>
+    <string name="btn2">BOTON2</string>
+    <string name="edt_re">Recuperar contraseña</string>
+
+    <string name="login">INICIAR SESION</string>
+    <string name="edt_email">INGRESAR CORREO</string>
+    <string name="edt_pass">INGRESAR CONTRASEÑA</string>
+    <string name="btn_login">INGRESAR</string>
+    <string name="btn_gmail">CORREO ELECTRONICO</string>
+    <string name="btn_cuenta">CREAR CUENTA</string>
+
+    <string name="resgistrar">CREAR CUENTA</string>
+    <string name="edt_nom">INGRESAR NOMBRES Y APELLIDOS</string>
+    <string name="edt_correo">INGRESAR CORREO</string>
+
+    <string name="edt_celular">INGRESAR NUMERO CELULAR</string>
+    <string name="edt_contraseña">CREAR CONTRASEÑA</string>
+    <string name="edt_registrarse">Crear cuenta</string>
+
+    <string name="recu_contraseña">RECUPERAR CONTRASEÑA</string>
+    <string name="edt_ce">INGRESE SU CORREO</string>
+    <string name="btn_recu">RECUPERAR</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>
